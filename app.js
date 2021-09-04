@@ -18,7 +18,6 @@ document.getElementById('pin-generate').addEventListener('click', function () {
     generatePin();
 });
 
-
 document.getElementById('key-pad').addEventListener('click', function (event) {
     const number = event.target.innerText;
     const calcInput = document.getElementById('typed-numbers');
@@ -34,8 +33,6 @@ document.getElementById('key-pad').addEventListener('click', function (event) {
     }
     
 });
-
-
 
 document.getElementById('verify-pin').addEventListener('click', function () {
     const pinInput = document.getElementById('pin-input').value;
